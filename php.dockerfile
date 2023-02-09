@@ -1,4 +1,4 @@
-FROM php:8.0-fpm-alpine3.12
+FROM php:8.2-fpm-alpine
 
 ADD ./php/www.conf /usr/local/etc/php-fpm.d/www.conf
 RUN cp /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
